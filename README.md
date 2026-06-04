@@ -2,9 +2,9 @@
 
 ## Overview
 
-This project demonstrates automated deployment of a production-ready WordPress environment on AWS using Infrastructure as Code (IaC) principles with AWS CloudFormation.
+This project demonstrates deployment of a production-ready WordPress environment on AWS using Infrastructure as Code (IaC) principles with AWS CloudFormation.
 
-The infrastructure was provisioned using reusable YAML templates and includes automation, scaling, backup, and monitoring concepts commonly used in real-world DevOps environments.
+The infrastructure was provisioned using reusable YAML templates and includes automation, scaling, backup, and monitoring concepts commonly used in DevOps environments.
 
 ---
 
@@ -33,41 +33,53 @@ The infrastructure was provisioned using reusable YAML templates and includes au
 
 ---
 
-## Architecture
+# Architecture Diagram
 
 ![Architecture](architecture-diagram.png)
 
 ---
 
-## Deployment Screenshots
+# Deployment Screenshots
 
-### CloudFormation Stack
+## CloudFormation Stack
 
-![CloudFormation](cloudformation-stack.png)
+![CloudFormation](cloudformation%20stack.png)
 
-### EC2 Instance
+---
 
-![EC2](ec2-instance.png)
+## EC2 Instance
 
-### WordPress Installation
+![EC2](ec2%20instance.png)
+
+---
+
+## WordPress Installation
 
 ![WordPress](wordpress-installation.png)
 
-### Auto Scaling Group
+---
 
-![ASG](autoscaling-group.png)
+## Auto Scaling Group
 
-### Route53 Health Check
+![AutoScaling](auto%20scaling.png)
+
+---
+
+## Route53 Health Check
 
 ![Route53](route53-healthcheck.png)
 
-### AMI Backup
+---
 
-![AMI](ami-backup.png)
+## AMI Backup
 
-### Live WordPress Deployment
+![AMI](ami%20backup.png)
 
-![Live Site](wordpress-live-site.png)
+---
+
+## Live WordPress Site
+
+![LiveSite](wordpress-live-site.png)
 
 ---
 
